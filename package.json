@@ -1,0 +1,107 @@
+{
+  "name": "mern-pizza-app",
+  "type": "module",
+  "proxy": "http://127.0.0.1:5000",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.2",
+    "@testing-library/user-event": "^12.5.0",
+    "animate.css": "^4.1.1",
+    "antd": "^4.11.2",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "express-async-handler": "^1.1.4",
+    "google-map-react": "^2.1.9",
+    "google-maps-react": "^2.0.6",
+    "lodash": "^4.17.21",
+    "mdbreact": "^5.0.1",
+    "moment-timezone": "^0.5.32",
+    "mongoose": "^5.11.8",
+    "multiselect-react-dropdown": "^1.6.7",
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1",
+    "react-burger-menu": "^3.0.2",
+    "react-content-loader": "^5.1.4",
+    "react-dom": "^17.0.1",
+    "react-geocode": "^0.2.2",
+    "react-google-autocomplete": "^1.2.6",
+    "react-google-maps": "^9.4.5",
+    "react-hook-form": "^7.0.0",
+    "react-https-redirect": "^1.1.0",
+    "react-image-picker": "^1.1.1",
+    "react-images-uploading": "^3.1.2",
+    "react-input-mask": "^2.0.4",
+    "react-moment": "^1.1.1",
+    "react-notifications-component": "^3.0.3",
+    "react-paypal-button-v2": "^2.6.2",
+    "react-phone-number-input": "^3.1.10",
+    "react-redux": "^7.2.2",
+    "react-responsive": "^8.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "react-scroll": "^1.8.1",
+    "react-scroll-into-view": "^1.8.2",
+    "react-scrollable-anchor": "^0.6.1",
+    "react-select": "^4.1.0",
+    "react-slick": "^0.28.1",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.1",
+    "styled-components": "^5.2.1",
+    "web-vitals": "^0.2.4",
+    "@babel/register": "^7.13.14",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-http-to-https": "^1.1.4",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.1.0",
+    "ignore-styles": "^5.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mkdirp": "^1.0.4",
+    "multer": "^1.4.2",
+    "react-router": "^5.2.0",
+    "uuidv4": "^6.2.6"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm run start --prefix client",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^7.16.0",
+    "eslint-plugin-react": "^7.21.5",
+    "nodemon": "^2.0.6",
+    "prettier": "2.2.1"
+  },  
+  "engines": {
+    "node": "12.19.0"
+  }
+}
