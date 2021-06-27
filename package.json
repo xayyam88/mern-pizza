@@ -1,7 +1,6 @@
 {
   "name": "mern-pizza-app",
   "type": "module",
-  "proxy": "http://127.0.0.1:5000",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -69,7 +68,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "server": "nodemon backend/server.js",
+    "server": "nodemon server.js",
     "client": "npm run start --prefix client",
     "build": "react-scripts build",
     "test": "react-scripts test",
